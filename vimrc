@@ -14,8 +14,8 @@ syntax on
 :set encoding=iso-8859-1
 :set fileencoding=iso-8859-1
 
-:com W w
-:com Q q
+:com! W w
+:com! Q q
 
 :autocmd FileType * set tabstop=4|set shiftwidth=4|set smartindent|set smarttab|set noexpandtab
 :autocmd FileType python set tabstop=4|set shiftwidth=4|set smartindent|set smarttab|set expandtab
