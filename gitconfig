@@ -1,0 +1,22 @@
+[alias]
+        br = branch -v
+        co = checkout
+        ci = commit -v
+        logf = log --name-status
+        st = status -s
+[color]
+        ui = true
+[user]
+        email =
+        name =
+[merge]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[pager]
+    diff =
+[grep]
+  linenumber = true
+[core]
+	editor = vim
+	pager = less -+F
