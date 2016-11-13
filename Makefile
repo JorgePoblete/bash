@@ -1,5 +1,5 @@
 DEST_FOLER=~/
-FILES=bashrc bash_aliases bash_exports bash_functions bash_profile vimrc vim gitconfig
+FILES=bashrc bash_aliases bash_exports bash_functions bash_profile vimrc vim gitconfig tmux.conf
 $(VERBOSE).SILENT:
 
 all:
