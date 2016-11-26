@@ -9,11 +9,12 @@ tmux=tmux.conf
 # List of programs files that will be copied by default.
 
 FILES=bash git vim tmux
-DEST_FOLER=~/tmp/
+DEST_FOLER=~/
+
+$(VERBOSE).SILENT:
 
 CP_FILES=for file in $($(1)) ; do echo -n "Copying file $$file";	cp -r $$file $(DEST_FOLER).$$file; echo ", done."; done;
 
-$(VERBOSE).SILENT:
 
 all: $(addprefix install-,$(FILES))
 	echo "Copy complete.";
