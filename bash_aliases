@@ -1,5 +1,6 @@
 #usefull aliases
 alias ls='ls -G'
+alias mkdir='mkdir -p'
 alias vibashrc='vi ~/.bashrc'
 alias vialias='vi ~/.bash_aliases'
 alias viexport='vi ~/.bash_exports'
