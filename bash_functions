@@ -25,3 +25,8 @@ function get_branch
 {
     git branch 2> /dev/null | grep "*" | sed "s/* //";
 }
+
+function log()
+{
+    git log --stat --pretty=short --graph
+}
